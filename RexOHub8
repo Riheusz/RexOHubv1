@@ -1,0 +1,282 @@
+local RexO = Instance.new("ScreenGui")
+local RexOHub = Instance.new("Frame")
+local Hub = Instance.new("Frame")
+local TittleOwlHub = Instance.new("TextLabel")
+local OwlHub = Instance.new("TextButton")
+local TittleVynixu = Instance.new("TextLabel")
+local Vynixu = Instance.new("TextButton")
+local TittleHeadless = Instance.new("TextLabel")
+local Headless = Instance.new("TextButton")
+local TittleCMDX = Instance.new("TextLabel")
+local CMDX = Instance.new("TextButton")
+local TittleR15GUi = Instance.new("TextLabel")
+local TextButton = Instance.new("TextButton")
+local TittleFECar = Instance.new("TextLabel")
+local TextButton_2 = Instance.new("TextButton")
+local TittleINFINITEYIELD = Instance.new("TextLabel")
+local TextButton_3 = Instance.new("TextButton")
+local TittlePushTool = Instance.new("TextLabel")
+local TextButton_4 = Instance.new("TextButton")
+local TittleMainHub = Instance.new("TextLabel")
+local WaterMark = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
+
+RexO.Name = "RexO"
+RexO.Parent = game.CoreGui
+RexO.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+RexOHub.Name = "RexOHub"
+RexOHub.Parent = RexO
+RexOHub.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+RexOHub.BorderColor3 = Color3.fromRGB(27, 42, 53)
+RexOHub.Position = UDim2.new(0, 0, 0.425361156, 0)
+RexOHub.Size = UDim2.new(0, 319, 0, 25)
+
+Hub.Name = "Hub"
+Hub.Parent = RexOHub
+Hub.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+Hub.Position = UDim2.new(-0.00313479616, 0, 1, 0)
+Hub.Size = UDim2.new(0, 320, 0, 333)
+Hub.SizeConstraint = Enum.SizeConstraint.RelativeXX
+
+TittleOwlHub.Name = "Tittle Owl Hub"
+TittleOwlHub.Parent = Hub
+TittleOwlHub.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TittleOwlHub.BackgroundTransparency = 1.000
+TittleOwlHub.Position = UDim2.new(-0.00312500005, 0, -0.0039537549, 0)
+TittleOwlHub.Size = UDim2.new(0, 115, 0, 25)
+TittleOwlHub.Font = Enum.Font.SourceSans
+TittleOwlHub.Text = "Owl Hub Loader"
+TittleOwlHub.TextColor3 = Color3.fromRGB(108, 108, 108)
+TittleOwlHub.TextSize = 14.000
+TittleOwlHub.TextWrapped = true
+
+OwlHub.Name = "OwlHub"
+OwlHub.Parent = TittleOwlHub
+OwlHub.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+OwlHub.BackgroundTransparency = 0.950
+OwlHub.Position = UDim2.new(0, 0, 1, 0)
+OwlHub.Size = UDim2.new(0, 115, 0, 25)
+OwlHub.Font = Enum.Font.SourceSans
+OwlHub.Text = "Load Owl Hub"
+OwlHub.TextColor3 = Color3.fromRGB(108, 108, 108)
+OwlHub.TextSize = 14.000
+OwlHub.MouseButton1Click:connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/rqc4kf61"))()
+end)
+
+TittleVynixu.Name = "Tittle Vynixu"
+TittleVynixu.Parent = Hub
+TittleVynixu.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TittleVynixu.BackgroundTransparency = 1.000
+TittleVynixu.Position = UDim2.new(0.640303731, 0, -0.0039537549, 0)
+TittleVynixu.Size = UDim2.new(0, 115, 0, 25)
+TittleVynixu.Font = Enum.Font.SourceSans
+TittleVynixu.Text = "Vynixu Loader"
+TittleVynixu.TextColor3 = Color3.fromRGB(108, 108, 108)
+TittleVynixu.TextSize = 14.000
+TittleVynixu.TextWrapped = true
+
+Vynixu.Name = "Vynixu"
+Vynixu.Parent = TittleVynixu
+Vynixu.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Vynixu.BackgroundTransparency = 0.950
+Vynixu.Position = UDim2.new(-0.00869565178, 0, 1, 0)
+Vynixu.Size = UDim2.new(0, 115, 0, 25)
+Vynixu.Font = Enum.Font.SourceSans
+Vynixu.Text = "Load Vynixu"
+Vynixu.TextColor3 = Color3.fromRGB(108, 108, 108)
+Vynixu.TextSize = 14.000
+Vynixu.MouseButton1Click:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Scripts/master/Vynixius%20Ragdoll%20Engine"))()
+end)
+
+TittleHeadless.Name = "Tittle Headless"
+TittleHeadless.Parent = Hub
+TittleHeadless.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TittleHeadless.BackgroundTransparency = 1.000
+TittleHeadless.Position = UDim2.new(-0.00937500037, 0, 0.143454716, 0)
+TittleHeadless.Size = UDim2.new(0, 115, 0, 25)
+TittleHeadless.Font = Enum.Font.SourceSans
+TittleHeadless.Text = "Headless Loader"
+TittleHeadless.TextColor3 = Color3.fromRGB(108, 108, 108)
+TittleHeadless.TextSize = 14.000
+
+Headless.Name = "Headless"
+Headless.Parent = TittleHeadless
+Headless.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Headless.BackgroundTransparency = 0.950
+Headless.Position = UDim2.new(0, 0, 1, 0)
+Headless.Size = UDim2.new(0, 115, 0, 25)
+Headless.Font = Enum.Font.SourceSans
+Headless.Text = "Load Headless"
+Headless.TextColor3 = Color3.fromRGB(108, 108, 108)
+Headless.TextSize = 14.000
+Headless.MouseButton1Click:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Riheusz/Headless/main/Headless")) ()
+end)
+
+TittleCMDX.Name = "Tittle CMD X"
+TittleCMDX.Parent = Hub
+TittleCMDX.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TittleCMDX.BackgroundTransparency = 1.000
+TittleCMDX.Position = UDim2.new(0.640303731, 0, 0.143454716, 0)
+TittleCMDX.Size = UDim2.new(0, 115, 0, 25)
+TittleCMDX.Font = Enum.Font.SourceSans
+TittleCMDX.Text = "CMD X Loader"
+TittleCMDX.TextColor3 = Color3.fromRGB(108, 108, 108)
+TittleCMDX.TextSize = 14.000
+
+CMDX.Name = "CMDX"
+CMDX.Parent = TittleCMDX
+CMDX.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+CMDX.BackgroundTransparency = 0.950
+CMDX.Position = UDim2.new(0, 0, 1, 0)
+CMDX.Size = UDim2.new(0, 115, 0, 25)
+CMDX.Font = Enum.Font.SourceSans
+CMDX.Text = "Load CMD X"
+CMDX.TextColor3 = Color3.fromRGB(108, 108, 108)
+CMDX.TextSize = 14.000
+CMDX.MouseButton1Click:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/Source", true))()
+end)
+
+TittleR15GUi.Name = "Tittle R15 GUi"
+TittleR15GUi.Parent = Hub
+TittleR15GUi.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TittleR15GUi.BackgroundTransparency = 1.000
+TittleR15GUi.Position = UDim2.new(0.001131217, 0, 0.3128016, 0)
+TittleR15GUi.Size = UDim2.new(0, 115, 0, 25)
+TittleR15GUi.Font = Enum.Font.SourceSans
+TittleR15GUi.Text = "R15 Gui Loader"
+TittleR15GUi.TextColor3 = Color3.fromRGB(108, 108, 108)
+TittleR15GUi.TextSize = 14.000
+
+TextButton.Parent = TittleR15GUi
+TextButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.BackgroundTransparency = 0.950
+TextButton.Position = UDim2.new(0, 0, 1, 0)
+TextButton.Size = UDim2.new(0, 115, 0, 25)
+TextButton.Font = Enum.Font.SourceSans
+TextButton.Text = "Load R15 Gui"
+TextButton.TextColor3 = Color3.fromRGB(108, 108, 108)
+TextButton.TextSize = 14.000
+TextButton.MouseButton1Click:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Riheusz/R15gui/main/R15Gui"))()
+end)
+
+TittleFECar.Name = "Tittle FE Car "
+TittleFECar.Parent = Hub
+TittleFECar.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TittleFECar.BackgroundTransparency = 1.000
+TittleFECar.Position = UDim2.new(0.637178719, 0, 0.313977361, 0)
+TittleFECar.Size = UDim2.new(0, 115, 0, 25)
+TittleFECar.Font = Enum.Font.SourceSans
+TittleFECar.Text = "FE Car Loader"
+TittleFECar.TextColor3 = Color3.fromRGB(108, 108, 108)
+TittleFECar.TextSize = 14.000
+
+TextButton_2.Parent = TittleFECar
+TextButton_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_2.BackgroundTransparency = 0.950
+TextButton_2.Position = UDim2.new(0, 0, 1, 0)
+TextButton_2.Size = UDim2.new(0, 116, 0, 25)
+TextButton_2.Font = Enum.Font.SourceSans
+TextButton_2.Text = "Load FE Car"
+TextButton_2.TextColor3 = Color3.fromRGB(108, 108, 108)
+TextButton_2.TextSize = 14.000
+TextButton_2.MouseButton1Click:connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/MonkoTubeYT/carscript/master/!carscript.lua',true))()
+	--https://www.roblox.com/catalog/4435389917/Eltoria-RX750
+end)
+
+TittleINFINITEYIELD.Name = "Tittle INFINITE YIELD "
+TittleINFINITEYIELD.Parent = Hub
+TittleINFINITEYIELD.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TittleINFINITEYIELD.BackgroundTransparency = 1.000
+TittleINFINITEYIELD.Position = UDim2.new(0.00311520416, 0, 0.459400028, 0)
+TittleINFINITEYIELD.Size = UDim2.new(0, 115, 0, 25)
+TittleINFINITEYIELD.Font = Enum.Font.SourceSans
+TittleINFINITEYIELD.Text = "INFINITE YIELD Loader"
+TittleINFINITEYIELD.TextColor3 = Color3.fromRGB(108, 108, 108)
+TittleINFINITEYIELD.TextSize = 12.000
+
+TextButton_3.Parent = TittleINFINITEYIELD
+TextButton_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_3.BackgroundTransparency = 0.950
+TextButton_3.Position = UDim2.new(0.0149999997, 0, 1, 0)
+TextButton_3.Size = UDim2.new(0, 115, 0, 25)
+TextButton_3.Font = Enum.Font.SourceSans
+TextButton_3.Text = "Load INFINITE YIELD"
+TextButton_3.TextColor3 = Color3.fromRGB(108, 108, 108)
+TextButton_3.TextSize = 14.000
+TextButton_3.MouseButton1Click:connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+end)
+
+TittlePushTool.Name = "Tittle Push Tool"
+TittlePushTool.Parent = Hub
+TittlePushTool.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TittlePushTool.BackgroundTransparency = 1.000
+TittlePushTool.Position = UDim2.new(0.637178719, 0, 0.462402999, 0)
+TittlePushTool.Size = UDim2.new(0, 115, 0, 25)
+TittlePushTool.Font = Enum.Font.SourceSans
+TittlePushTool.Text = "Fling Push Tool Load"
+TittlePushTool.TextColor3 = Color3.fromRGB(108, 108, 108)
+TittlePushTool.TextSize = 14.000
+
+TextButton_4.Parent = TittlePushTool
+TextButton_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_4.BackgroundTransparency = 0.950
+TextButton_4.Position = UDim2.new(0, 0, 1, 0)
+TextButton_4.Size = UDim2.new(0, 115, 0, 25)
+TextButton_4.Font = Enum.Font.SourceSans
+TextButton_4.Text = "Load Push Tool"
+TextButton_4.TextColor3 = Color3.fromRGB(108, 108, 108)
+TextButton_4.TextSize = 14.000
+TextButton_4.MouseButton1Click:connect(function()
+	loadstring(game:HttpGet('https://pastebin.com/raw/GgJytxNy'))()
+end)
+
+
+TittleMainHub.Name = "TittleMainHub"
+TittleMainHub.Parent = RexOHub
+TittleMainHub.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TittleMainHub.BackgroundTransparency = 1.000
+TittleMainHub.Position = UDim2.new(0.106583066, 0, 0, 0)
+TittleMainHub.Size = UDim2.new(0, 250, 0, 25)
+TittleMainHub.Font = Enum.Font.SourceSans
+TittleMainHub.Text = "RexO Hub"
+TittleMainHub.TextColor3 = Color3.fromRGB(108, 108, 108)
+TittleMainHub.TextSize = 14.000
+
+WaterMark.Name = "WaterMark"
+WaterMark.Parent = RexO
+WaterMark.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+WaterMark.BackgroundTransparency = 1.000
+WaterMark.Position = UDim2.new(0, 0, 0.345104337, 0)
+WaterMark.Size = UDim2.new(0, 250, 0, 50)
+
+TextLabel.Parent = WaterMark
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.Position = UDim2.new(0, 0, 0.163081512, 0)
+TextLabel.Size = UDim2.new(0, 250, 0, 35)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "RexO Hub Made By Rihi#3276"
+TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.TextSize = 14.000
+
+-- Scripts:
+
+local function BJKEQF_fake_script() -- RexO.LocalScript 
+	local script = Instance.new('LocalScript', RexO)
+
+	--By DriedUpCat
+	
+	frame = script.Parent.RexOHub
+	frame.Draggable = true
+	frame.Active = true
+	frame.Selectable = true
+end
+coroutine.wrap(BJKEQF_fake_script)()
