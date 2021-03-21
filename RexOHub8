@@ -222,7 +222,7 @@ TittlePushTool.BackgroundTransparency = 1.000
 TittlePushTool.Position = UDim2.new(0.637178719, 0, 0.462402999, 0)
 TittlePushTool.Size = UDim2.new(0, 115, 0, 25)
 TittlePushTool.Font = Enum.Font.SourceSans
-TittlePushTool.Text = "Push Tool Load"
+TittlePushTool.Text = "Push Tool Loader"
 TittlePushTool.TextColor3 = Color3.fromRGB(108, 108, 108)
 TittlePushTool.TextSize = 14.000
 
