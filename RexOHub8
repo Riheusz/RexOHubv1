@@ -264,7 +264,7 @@ TextLabel.BackgroundTransparency = 1.000
 TextLabel.Position = UDim2.new(0, 0, 0.163081512, 0)
 TextLabel.Size = UDim2.new(0, 250, 0, 35)
 TextLabel.Font = Enum.Font.SourceSans
-TextLabel.Text = "RexO Hub Made By Rihi#3276"
+TextLabel.Text = "Snake Hub Made By Rihi#3276"
 TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextLabel.TextSize = 14.000
 
