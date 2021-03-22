@@ -247,7 +247,7 @@ TittleMainHub.BackgroundTransparency = 1.000
 TittleMainHub.Position = UDim2.new(0.106583066, 0, 0, 0)
 TittleMainHub.Size = UDim2.new(0, 250, 0, 25)
 TittleMainHub.Font = Enum.Font.SourceSans
-TittleMainHub.Text = "RexO Hub"
+TittleMainHub.Text = "Snake Hub"
 TittleMainHub.TextColor3 = Color3.fromRGB(108, 108, 108)
 TittleMainHub.TextSize = 14.000
 
