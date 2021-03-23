@@ -281,3 +281,4 @@ local function BJKEQF_fake_script() -- RexO.LocalScript
 	frame.Selectable = true
 end
 coroutine.wrap(BJKEQF_fake_script)()
+--MADE BY RIHEUSZ ON GIT HUB
